@@ -5,15 +5,15 @@ public class Main {
         // Prints out your Java version
         // Make sure it is 10.0 or higher
         System.out.println("Your Java version: " + System.getProperty(("java.version")));
-    sayHello();
+    //Task 2
+        System.out.println(sayHello());
 
     }
-    // Task 1 here
-    public static void sayHello()
+  //Task 1
+    public static String sayHello()
     {
 
-        // Task 2 here
-        System.out.println("Hello World");
+        return"Hello World";
 
     }
 
